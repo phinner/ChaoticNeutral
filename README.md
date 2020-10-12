@@ -9,7 +9,7 @@ We are located on the East US Coast.
 
 ### Tutorials:
 
-N/A
+* [Server Hosting (local)](https://github.com/L0615T1C5-216AC-9437/ChaoticNeutral/blob/master/wiki/tutorials/%5BTutorial%5D%20Hosting%20a%20Mindustry%20Server%20(local)/server.bat)
 
 ### Community Feature Requests
 [![Feature Requests](https://feathub.com/L0615T1C5-216AC-9437/ChaoticNeutral?format=svg)](https://feathub.com/L0615T1C5-216AC-9437/ChaoticNeutral)
