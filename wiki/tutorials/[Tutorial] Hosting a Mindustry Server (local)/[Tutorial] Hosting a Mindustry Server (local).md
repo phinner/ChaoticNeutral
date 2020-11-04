@@ -5,7 +5,7 @@ In order to host a server, A machine or [VM](https://en.wikipedia.org/wiki/Virtu
 ### Step 1) Getting the main server files:  
 The main server files (named server-release.jar) can be downloaded from [here](https://github.com/Anuken/Mindustry/releases).  
 * [v5.0 - v105.6](https://github.com/Anuken/Mindustry/releases/tag/v104.6) is the latest stable release of Mindustry. This is the most popular version.  
-* [v6.0 - v107](https://github.com/Anuken/Mindustry/releases/tag/v107) is the latest experimental of Mindustry. This is a experimental version of mindustry, said to be released as soon as winter 2020.
+* [v6.0 - v112](https://github.com/Anuken/Mindustry/releases/tag/v107) is the latest experimental of Mindustry. This is a experimental version of mindustry, said to be released as soon as winter 2020.
 
 ### Step 2) Setting up the server files:  
 In order to run the server, one must execute the server-release.jar. Before doing so, it is recommended to place the server on a empty folder.  
