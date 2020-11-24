@@ -1,5 +1,5 @@
 # ChaoticNeutral
-[![Discord](https://img.shields.io/discord/519293558599974912.svg)](http://cn-discord.ddns.net) ![Mindustry v116](https://img.shields.io/badge/Mindustry-v116-brightgreen) ![Mindustry v105.6](https://img.shields.io/badge/Mindustry-v105.6-brightgreen)
+[![Discord](https://img.shields.io/discord/519293558599974912.svg?logo=discord)](http://cn-discord.ddns.net) ![Mindustry v116](https://img.shields.io/badge/Mindustry-v116-brightgreen) ![Mindustry v105.6](https://img.shields.io/badge/Mindustry-v105.6-brightgreen)
 
 ### About Us
 We host [mindustry](https://anuke.itch.io/mindustry) servers with the soul purpose of giving the most enjoyable griefer-free mindustry experience.  
