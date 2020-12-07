@@ -36,7 +36,7 @@ For TPLINK:
 
 ![Input this](https://cdn.discordapp.com/attachments/712800219598684192/785585148719792138/unknown.png)
 
-![check that the bulb is on](https://cdn.discordapp.com/attachments/712800219598684192/785590693996920862/unknown.png)
+![check that the bulb is on](https://cdn.discordapp.com/attachments/712800219598684192/785594115546415144/unknown.png)
 
 check that the bulb is on
 
