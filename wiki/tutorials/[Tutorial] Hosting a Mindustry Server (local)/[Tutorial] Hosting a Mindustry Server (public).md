@@ -19,8 +19,7 @@ In order for the server to run, [Java RE/JDK 1.8](https://www.oracle.com/java/te
 ### (Step 4) Opening Firewall advanced rules
 [Linux](https://www.journaldev.com/34113/opening-a-port-on-linux)
 
-[Windows](https://www.tomshardware.com/news/how-to-open-firewall-ports-in-windows-10,36451.html)
-
+[Windows](https://www.tomshardware.com/news/how-to-open-firewall-ports-in-windows-10,36451.html) (pd:
 Open port 6567 udp and tcp in and out (notice: you need to press allow connection at windows setting when opening the ports)
 
 ### (Step 5) Configuring your router
