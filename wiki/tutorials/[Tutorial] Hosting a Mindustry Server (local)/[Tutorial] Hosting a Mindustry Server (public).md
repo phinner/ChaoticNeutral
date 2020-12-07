@@ -26,10 +26,16 @@ First before doing this, check if your isp lets you host a server, if it doesnt 
 if your isp allows you then i guess proceed , first go to 192.168.0.1 and log in with your admin password , then after that search on any browser how to port forward your router brand
 
 For TPLINK:
+
 ![Go to advanced](https://cdn.discordapp.com/attachments/712800219598684192/785584843362271242/unknown.png)
+
 ![Go to Virtual Servers](https://cdn.discordapp.com/attachments/712800219598684192/785584939428085775/unknown.png)
+
 ![Go to Add](https://cdn.discordapp.com/attachments/712800219598684192/785585181805117550/unknown.png)
+
 ![Input this](https://cdn.discordapp.com/attachments/712800219598684192/785585148719792138/unknown.png)
+
+
 you might need to go to port triggering, if you do then imput all 6567
 windows: to get your internal ip do win+r and write cmd then write ipconfig , search ipv4 and copy that number
 linux: unsure do your own research
