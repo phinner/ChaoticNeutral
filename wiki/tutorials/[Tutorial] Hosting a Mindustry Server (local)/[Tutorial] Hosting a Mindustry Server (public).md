@@ -36,6 +36,9 @@ For TPLINK:
 
 ![Input this](https://cdn.discordapp.com/attachments/712800219598684192/785585148719792138/unknown.png)
 
+![check that the bulb is on](https://cdn.discordapp.com/attachments/712800219598684192/785590693996920862/unknown.png)
+
+check that the bulb is on
 
 you might need to go to port triggering, if you do then input all 6567
 windows: to get your internal ip do win+r and write cmd then write ipconfig , search ipv4 and copy that number
