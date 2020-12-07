@@ -73,4 +73,4 @@ Your local mindustry server should now be good to go! Players on your same netwo
 In order to connect to the server, try searching for it in the `Local Servers` tab and if that doesnt work, add the server directly by clicking `add server` then typing `serverIP:port` (replace words with their respective values).
 
 ### How can my friends connect through the internet to my server?
-Another tutorial will be created for public servers.
+Check the public tutorial [here](https://github.com/L0615T1C5-216AC-9437/ChaoticNeutral/blob/master/wiki/tutorials/%5BTutorial%5D%20Hosting%20a%20Mindustry%20Server%20(local)/%5BTutorial%5D%20Hosting%20a%20Mindustry%20Server%20(public).md)
