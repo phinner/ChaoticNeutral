@@ -2,6 +2,9 @@ Prerequisites:
 In order to host a server, A machine or [VM](https://en.wikipedia.org/wiki/Virtual_machine) with atleast 2 cores and 1024MB of [ram](https://en.wikipedia.org/wiki/Random-access_memory).  
 (Linux) Make sure all files being executed have proper permissions. Tutorials [here](https://www.guru99.com/file-permissions.html) and [here](https://www.tutorialspoint.com/unix/unix-file-permission.htm).
 
+### Notice: 
+*if you already done the [local tutorial](https://github.com/L0615T1C5-216AC-9437/ChaoticNeutral/blob/master/wiki/tutorials/%5BTutorial%5D%20Hosting%20a%20Mindustry%20Server%20(local)/%5BTutorial%5D%20Hosting%20a%20Mindustry%20Server%20(local).md), skip to 4 and end in 6.*
+
 ### Step 1) Getting the main server files:  
 The main server files (named server-release.jar) can be downloaded from [here](https://github.com/Anuken/Mindustry/releases).  
 * [v5.0 - v105.6](https://github.com/Anuken/Mindustry/releases/tag/v104.6) is the latest stable release of Mindustry. This is the most popular version.  
