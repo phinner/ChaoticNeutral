@@ -48,7 +48,7 @@ input whatever port you choose , default is 6567
 you might need to go to port triggering, if you do then input all 6567 or the port you choosen
 windows: to get your internal ip do win+r and write cmd then write ipconfig , search ipv4 and copy that number
 linux: unsure do your own research
-after that skip to step 7 start the server and then go to https://www.canyouseeme.org/ and check if port 6567 is open
+after that skip to step 7 start the server and then go to https://www.canyouseeme.org/ and check if the port you choose is open
 
 ### (Step 6){optional}
 go to noip.com and get a domain (search it on the web)
