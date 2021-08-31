@@ -36,7 +36,7 @@ This step is likely to be redundant
 Open port 6567, or the custom port you have chosen, with tcp & udp enabled on both inbound and outbound
 
 ### Step 3) Getting a proper DNS
-To simply put, a DNS is the 'name' of your IP. You may name your ip through free services such as [NoIP](https://www.noip.com) or by buying a domain.
+To simply put, a DNS is the 'name' of your IP. You may name your ip through free services such as [NoIP](https://www.noip.com) or by buying a domain.  
 You can learn more about DNS' by going [here](https://www.cloudflare.com/learning/dns/what-is-dns/)
 
 ## Your public server should be good to go!
