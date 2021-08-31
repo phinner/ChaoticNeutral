@@ -38,7 +38,7 @@ Automatic Relaunch example [here](https://github.com/Anuken/Mindustry/blob/maste
 A Java program can be used to run servers. A java program can be used to Automatically manage server files.  
 Possibilities include: Running Server with higher Priority, Managing: Maps, Plugins, Mods and Rules.  
 
-### 5) Setting up server:
+### Step 5) Setting up server:
 Now that your server can run, we must set it up.  
 **Basic:**  
 Use the following commands in server console to configure your server.  
@@ -56,7 +56,7 @@ maps folder - Place Custom Maps here so they appear in the map rotation.
 mods folder - Place Plugins and/or Mods here.  
 \* If Modded, Players require the mods to be installed before being able to join.
 
-### 6) Starting Mindustry server:
+### Step 6) Starting Mindustry server:
 To start a Mindsutry server, one msut first start the server, then host a map and gamemode.  
 **Manual:**  
 To Manually host a map, use command `host <mapName> [gamemode/survival if empty]` to host Mindustry server.  
