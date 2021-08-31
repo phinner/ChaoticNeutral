@@ -1,5 +1,5 @@
 Prerequisites:
-In order to host a server, A machine or [VM](https://en.wikipedia.org/wiki/Virtual_machine) with atleast 2 cores and 1024MB of [ram](https://en.wikipedia.org/wiki/Random-access_memory).  
+In order to host a server, You need a machine or [VM](https://en.wikipedia.org/wiki/Virtual_machine) with atleast 2 cores and 1024MB of [ram](https://en.wikipedia.org/wiki/Random-access_memory).  
 (Linux) Make sure all files being executed have proper permissions. Tutorials [here](https://www.guru99.com/file-permissions.html) and [here](https://www.tutorialspoint.com/unix/unix-file-permission.htm).
 
 ### Step 1) Getting the main server files:  
