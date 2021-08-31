@@ -21,7 +21,7 @@ In order for the server to run, [Java RE/JDK 1.8](https://www.oracle.com/java/te
 There are a few ways from running your server.  
   
 **(W & L) Running server directly through CMD:**  
-cd ([windows](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/cd)/[linux](https://linuxize.com/post/linux-cd-command/) to the server directory. Use Java command `Java -jar server-release.jar` and watch the server start up. 
+cd ([windows](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/cd)/[linux](https://linuxize.com/post/linux-cd-command/)) to the server directory. Use Java command `Java -jar server-release.jar` and watch the server start up. 
  
 **(Windows) Batch file:**  
 A [Batch file](https://www.windowscentral.com/how-create-and-run-batch-file-windows-10) can be used to run servers. A batch file can be coded such that it runs the server once or relaunches every time the Mindustry Server crashes.  
