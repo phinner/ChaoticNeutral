@@ -2,10 +2,13 @@ Prerequisites:
 In order to host a server, A machine or [VM](https://en.wikipedia.org/wiki/Virtual_machine) with atleast 2 cores and 1024MB of [ram](https://en.wikipedia.org/wiki/Random-access_memory).  
 (Linux) Make sure all files being executed have proper permissions. Tutorials [here](https://www.guru99.com/file-permissions.html) and [here](https://www.tutorialspoint.com/unix/unix-file-permission.htm).
 
+### Notice: 
+*if you already done the [local tutorial](https://github.com/L0615T1C5-216AC-9437/ChaoticNeutral/blob/master/wiki/tutorials/%5BTutorial%5D%20Hosting%20a%20Mindustry%20Server%20(local)/%5BTutorial%5D%20Hosting%20a%20Mindustry%20Server%20(local).md), skip to 4 and end in 6.*
+
 ### Step 1) Getting the main server files:  
 The main server files (named server-release.jar) can be downloaded from [here](https://github.com/Anuken/Mindustry/releases).  
-* [v5.0 - v105.6](https://github.com/Anuken/Mindustry/releases/tag/v104.6) is the latest stable release of Mindustry. This is the most popular version.  
-* [v6.0](https://github.com/Anuken/Mindustry/releases/) is the latest experimental of Mindustry. This is a experimental version of mindustry, said to be released as soon as winter 2020.
+* [v5.0 - v105.6](https://github.com/Anuken/Mindustry/releases/tag/v104.6) is the old stable release of Mindustry. 
+* [v6.0](https://github.com/Anuken/Mindustry/releases/) is the latest experimental of Mindustry. This is the most popular version.  
 
 ### Step 2) Setting up the server files:  
 In order to run the server, one must execute the server-release.jar. Before doing so, it is recommended to place the server on a empty folder.  
@@ -16,7 +19,44 @@ In order for the server to run, [Java RE/JDK 1.8](https://www.oracle.com/java/te
 (Windows) Make sure that the path for the java 1.8 is properly included in the Windows Environmental Variables.  
 (Linux) unknown, do your own research. 
 
-### Step 4) Running your server:
+### (Step 4) Opening Firewall advanced rules
+[Linux](https://www.journaldev.com/34113/opening-a-port-on-linux)
+
+[Windows](https://www.tomshardware.com/news/how-to-open-firewall-ports-in-windows-10,36451.html) (pd:
+Open port 6567 udp and tcp in and out (notice: you need to press allow connection at windows setting when opening the ports)
+
+### (Step 5) Configuring your router
+First before doing this, check if your isp lets you host a server, if it doesnt [this](https://cdn.discordapp.com/attachments/661637296314908717/785583384465244200/unknown.png) might happen to you
+if your isp allows you then i guess proceed , first go to 192.168.0.1 and log in with your admin password , then after that search on any browser how to port forward your router brand
+
+For TPLINK:
+
+![Go to advanced](https://cdn.discordapp.com/attachments/712800219598684192/785584843362271242/unknown.png)
+
+![Go to Virtual Servers](https://cdn.discordapp.com/attachments/712800219598684192/785584939428085775/unknown.png)
+
+![Go to Add](https://cdn.discordapp.com/attachments/712800219598684192/785585181805117550/unknown.png)
+
+![Input this](https://cdn.discordapp.com/attachments/712800219598684192/785585148719792138/unknown.png)
+
+![check that the bulb is on](https://cdn.discordapp.com/attachments/712800219598684192/785594115546415144/unknown.png)
+
+check that the bulb is on
+
+input whatever port you choose , default is 6567
+
+you might need to go to port triggering, if you do then input all 6567 or the port you choosen
+
+windows: to get your internal ip do win+r and write cmd then write ipconfig , search ipv4 and copy that number
+
+linux: do ifconfig on terminal and get the one that says eth0 (you should know this, you linux user)
+
+after that skip to step 7 start the server and then go to https://www.canyouseeme.org/ and check if the port you choose is open
+
+### (Step 6){optional}
+go to noip.com and get a domain (search it on the web)
+
+### Step 7) Running your server:
 There are a few ways from running your server.  
   
 **(W & L) Running server directly through CMD:**  
@@ -37,7 +77,7 @@ Automatic Relaunch example [here](https://github.com/Anuken/Mindustry/blob/maste
 A Java program can be used to run servers. A java program can be used to Automatically manage server files.  
 Possibilities include: Running Server with higher Priority, Managing: Maps, Plugins, Mods and Rules.  
 
-### 5) Setting up server: (v5.0)
+### 8) Setting up server: (v5.0)
 Now that your server can run, we must set it up.  
 **Basic:**  
 Use the following commands in server console to configure your server.  
@@ -55,7 +95,7 @@ maps folder - Place Custom Maps here so they appear in the map rotation.
 mods folder - Place Plugins and/or Mods here.  
 \* If Modded, Players require the mods to be installed before being able to join.
 
-### 6) Starting Mindustry server:
+### 9) Starting Mindustry server:
 To start a Mindsutry server, one msut first start the server, then host a map and gamemode.  
 **Manual:**  
 To Manually host a map, use command `host <mapName> [gamemode/survival if empty]` to host Mindustry server.  
@@ -68,9 +108,6 @@ The configuration `startCommands` in `config` allows the server to run a sequenc
 e.g. `config startCommands host <mapName> [gamemode]` `config startCommands Tendrils survival`
 
 
-## Local server should be good to go!
-Your local mindustry server should now be good to go! Players on your same network should be able to join.  
+## Public server should be good to go!
+Your public mindustry server should now be good to go! Players with your ip should be able to join.  
 In order to connect to the server, try searching for it in the `Local Servers` tab and if that doesnt work, add the server directly by clicking `add server` then typing `serverIP:port` (replace words with their respective values).
-
-### How can my friends connect through the internet to my server?
-Check the public tutorial [here](https://github.com/L0615T1C5-216AC-9437/ChaoticNeutral/blob/master/wiki/tutorials/%5BTutorial%5D%20Hosting%20a%20Mindustry%20Server%20(local)/%5BTutorial%5D%20Hosting%20a%20Mindustry%20Server%20(public).md)
