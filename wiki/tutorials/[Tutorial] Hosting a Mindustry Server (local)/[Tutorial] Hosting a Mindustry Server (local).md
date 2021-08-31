@@ -4,8 +4,9 @@ In order to host a server, A machine or [VM](https://en.wikipedia.org/wiki/Virtu
 
 ### Step 1) Getting the main server files:  
 The main server files (named server-release.jar) can be downloaded from [here](https://github.com/Anuken/Mindustry/releases).  
-* [v5.0 - v105.6](https://github.com/Anuken/Mindustry/releases/tag/v104.6) is the latest stable release of Mindustry. This is the most popular version.  
-* [v6.0](https://github.com/Anuken/Mindustry/releases/) is the latest experimental of Mindustry. This is a experimental version of mindustry, said to be released as soon as winter 2020.
+* [v5.0 - v105.6](https://github.com/Anuken/Mindustry/releases/tag/v104.6) is an old version of Mindusry.
+* [v6.0 - v126.2](https://github.com/Anuken/Mindustry/releases/tag/v126.2) is the latest stable release of Mindustry. This is the most popular version.  
+* [v7.0](https://github.com/Anuken/Mindustry/releases/) is the latest experimental of Mindustry. This is a experimental version of mindustry, said to be released as soon as winter 2020.
 
 ### Step 2) Setting up the server files:  
 In order to run the server, one must execute the server-release.jar. Before doing so, it is recommended to place the server on a empty folder.  
@@ -37,7 +38,7 @@ Automatic Relaunch example [here](https://github.com/Anuken/Mindustry/blob/maste
 A Java program can be used to run servers. A java program can be used to Automatically manage server files.  
 Possibilities include: Running Server with higher Priority, Managing: Maps, Plugins, Mods and Rules.  
 
-### 5) Setting up server: (v5.0)
+### 5) Setting up server:
 Now that your server can run, we must set it up.  
 **Basic:**  
 Use the following commands in server console to configure your server.  
