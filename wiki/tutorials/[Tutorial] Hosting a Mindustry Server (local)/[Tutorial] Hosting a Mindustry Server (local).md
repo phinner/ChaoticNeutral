@@ -10,7 +10,7 @@ The main server files (named server-release.jar) can be downloaded from [here](h
 
 ### Step 2) Setting up the server files:  
 In order to run the server, one must execute the server-release.jar. Before doing so, it is recommended to place the server on a empty folder.  
-For installation of [Mods](https://github.com/topics/mindustry-mod), [Custom Maps](https://steamcommunity.com/workshop/browse/?appid=1127400&requiredtags[]=map) and more check step [#5](#5-setting-up-server).
+For installation of [Mods](https://github.com/topics/mindustry-mod), [Custom Maps](https://steamcommunity.com/workshop/browse/?appid=1127400&requiredtags[]=map) and more check step [#5](#step-5-Setting-up-server).
 
 ### Step 3) Dependencies:
 In order for the server to run, [Java RE/JDK 1.8](https://www.oracle.com/java/technologies/javase-jre8-downloads.html) must be installed.  
