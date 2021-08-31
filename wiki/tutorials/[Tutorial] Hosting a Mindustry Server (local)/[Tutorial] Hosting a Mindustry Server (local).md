@@ -10,7 +10,7 @@ The main server files (named server-release.jar) can be downloaded from [here](h
 
 ### Step 2) Setting up the server files:  
 In order to run the server, one must execute the server-release.jar. Before doing so, it is recommended to place the server on a empty folder.  
-For installation of [Mods](https://github.com/topics/mindustry-mod), [Custom Maps](https://steamcommunity.com/workshop/browse/?appid=1127400&requiredtags[]=map) and more check step [#5](#5-setting-up-server-v50).
+For installation of [Mods](https://github.com/topics/mindustry-mod), [Custom Maps](https://steamcommunity.com/workshop/browse/?appid=1127400&requiredtags[]=map) and more check step [#5](#5-setting-up-server).
 
 ### Step 3) Dependencies:
 In order for the server to run, [Java RE/JDK 1.8](https://www.oracle.com/java/technologies/javase-jre8-downloads.html) must be installed.  
@@ -74,4 +74,4 @@ Your local mindustry server should now be good to go! Players on your same netwo
 In order to connect to the server, try searching for it in the `Local Servers` tab and if that doesnt work, add the server directly by clicking `add server` then typing `serverIP:port` (replace words with their respective values).
 
 ### How can my friends connect through the internet to my server?
-Check the public tutorial [here](https://github.com/L0615T1C5-216AC-9437/ChaoticNeutral/blob/master/wiki/tutorials/%5BTutorial%5D%20Hosting%20a%20Mindustry%20Server%20(local)/%5BTutorial%5D%20Hosting%20a%20Mindustry%20Server%20(public).md)
+Check the public tutorial [here](https://github.com/L0615T1C5-216AC-9437/ChaoticNeutral/blob/master/wiki/tutorials/%5BTutorial%5D%20Hosting%20a%20Mindustry%20Server%20(public)/%5BTutorial%5D%20Hosting%20a%20Mindustry%20Server%20(public).md)
