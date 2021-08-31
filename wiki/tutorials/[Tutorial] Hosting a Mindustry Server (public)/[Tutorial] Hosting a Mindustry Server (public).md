@@ -1,6 +1,6 @@
 ## Notice: 
 **You must complete the [local server tutorial](https://github.com/L0615T1C5-216AC-9437/ChaoticNeutral/blob/master/wiki/tutorials/%5BTutorial%5D%20Hosting%20a%20Mindustry%20Server%20(local)/%5BTutorial%5D%20Hosting%20a%20Mindustry%20Server%20(local).md) prior to starting this tutorial!**
-##Disclaimer:
+## Disclaimer:
 **For those planning to host servers from your home network**
 - Hosting public servers may be violating your [ISP's](https://www.investopedia.com/terms/i/isp.asp) Terms of Service which could lead to extra fees and charges to your monthly plan.  
 - Depending on your contract, you may have a data cap limiting how much data you can receive and send. Going over this limit *may* cause additional fees and charges to your ontly plan.  
