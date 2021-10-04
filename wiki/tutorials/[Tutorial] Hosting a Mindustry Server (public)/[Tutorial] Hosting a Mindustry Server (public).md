@@ -4,7 +4,7 @@
 **For those planning to host servers from your home network**
 - Hosting public servers may be violating your [ISP's](https://www.investopedia.com/terms/i/isp.asp) Terms of Service which could lead to extra fees and charges to your monthly plan.  
 - Depending on your contract, you may have a data cap limiting how much data you can receive and send. Going over this limit *may* cause additional fees and charges to your ontly plan.  
-- If you plan on sharing the ip/domain of your server, be aware that not only your IP can be used to locate where you live, but can also allow malicious individuals to configure with your router as long as it uses a generic username / password.  
+- If you plan on sharing the ip/domain of your server, be aware that not only your IP can be used to locate where you live, but can also allow malicious individuals to configure  your router as long as it uses a generic username / password.  
 
 These things are unlikely to happen, but you must be aware of the dangers associated with opening ports and publicly sharing your ip to others.   
 
