@@ -1,3 +1,4 @@
+## How to create a Java Mod
 Prerequisites:  
 You must have [IntelliJ](https://www.jetbrains.com/idea/download/), [Eclipse](https://www.eclipse.org/downloads/) or any other [Java IDE](https://www.google.com/search?client=opera-gx&q=java+IDE) installed on your machine.  
 You must have [Java 8](https://www.google.com/search?q=java+8+download) or higher.
@@ -37,7 +38,7 @@ You can also change the packets name (folder inside `src/`) to whatever you like
 
 Now that the mod has been set up, you can start looking inside Mindustry's src for methods you may want to use.
 Some files you can search include but are not limited to `Call.java`, `Vars.java`, `Events.java` (`EventType.java`) and `Groups.java`.  
-Go [here](FrequentlyUsedMethods.md) to find Frequently Used Methods.
+Go [here](https://github.com/L0615T1C5-216AC-9437/ChaoticNeutral/blob/master/wiki/tutorials/%5BTutorial%5D%20Creating%20a%20Mod/FrequentlyUsedMethods.md) to find Frequently Used Methods.
 
 ###Step 5) Add new Content
 *Note: Multiplayer will require all players to download the mod before being able to join*  
