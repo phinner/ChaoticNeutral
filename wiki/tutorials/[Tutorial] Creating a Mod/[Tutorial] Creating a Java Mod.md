@@ -2,6 +2,8 @@ Prerequisites:
 You must have [IntelliJ](https://www.jetbrains.com/idea/download/), [Eclipse](https://www.eclipse.org/downloads/) or any other [Java IDE](https://www.google.com/search?client=opera-gx&q=java+IDE) installed on your machine.  
 You must have [Java 8](https://www.google.com/search?q=java+8+download) or higher.
 
+*Authors Note: AFAIK the only difference between a mod and a plugin is that mods add new content or modify existing content* 
+
 ### Step 1) Getting the Mod Template
 The first step is getting the Mod Template. The mod template usually contains the following:
 * Gradle Files
@@ -36,3 +38,33 @@ You can also change the packets name (folder inside `src/`) to whatever you like
 Now that the mod has been set up, you can start looking inside Mindustry's src for methods you may want to use.
 Some files you can search include but are not limited to `Call.java`, `Vars.java`, `Events.java` (`EventType.java`) and `Groups.java`.  
 Go [here](FrequentlyUsedMethods.md) to find Frequently Used Methods.
+
+###Step 5) Add new Content
+*Note: Multiplayer will require all players to download the mod before being able to join*  
+
+In order to load content, Items Liquids Blocks Etc., you must create a class that implements ContentList.
+```java
+public static class CustomItems implements ContentList {
+    public static Items Anukium;
+    
+    @Override
+    public void load() {
+        Anukium = new Item("anukium", Color.valuueOf("ffffff")) {{
+            hardness = 15;
+            cost = 100f;
+            radioactivity = 7.5f;
+        }}
+    }
+}
+```
+And then loading your custom `ContentList` by overriding the `Mod.loadContent()` method.
+```java
+//CustomMod.java
+public class CustomMod extends Mod {
+    //Other stuff here
+    @Override
+    public void loadContent() {
+        new CustomItems.load();
+    }
+}
+```
