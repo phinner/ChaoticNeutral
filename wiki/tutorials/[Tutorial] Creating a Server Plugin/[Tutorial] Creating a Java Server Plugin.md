@@ -1,6 +1,6 @@
 ## Notice:
 ## Creating a Java Server Plugin
-**Complete the [Creating a Java Mod](../Creating-A-Mod) Steps 1-4**.
+**Complete the [Creating a Java Mod](../wiki/Creating-A-Mod) Steps 1-4**.
 ### Adding custom commands
 In order to register server player commands, you most override the `registerClientCommands(CommandHandler handler)` Method.  
 Using UPPERCASE letters in command name somehow breaks the command, don't do it.  
