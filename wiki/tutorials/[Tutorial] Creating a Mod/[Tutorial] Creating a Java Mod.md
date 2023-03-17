@@ -40,7 +40,7 @@ Now that the mod has been set up, you can start looking inside Mindustry's src f
 Some files you can search include but are not limited to `Call.java`, `Vars.java`, `Events.java` (`EventType.java`) and `Groups.java`.  
 Go [here](https://github.com/L0615T1C5-216AC-9437/ChaoticNeutral/blob/master/wiki/tutorials/%5BTutorial%5D%20Creating%20a%20Mod/FrequentlyUsedMethods.md) to find Frequently Used Methods.
 
-###Step 5) Add new Content
+### Step 5) Add new Content
 *Note: Multiplayer will require all players to download the mod before being able to join*  
 
 In order to load content, Items Liquids Blocks Etc., you must create a class that implements ContentList.
